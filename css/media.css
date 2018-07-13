@@ -1,0 +1,173 @@
+/* START GLOBAL ADJUSTMENTS */
+
+/* END GLOBAL ADJUSTMENTS */
+
+
+
+/* START NAVBAR STYLING */
+@media (max-width: 991px) {
+	
+	nav.navbar {
+		
+		padding: 15px !important
+	}
+	
+	nav .navbar-toggler {
+		
+		width: 45px;
+		height: 35px;
+		padding: 0px !important;
+		border: 2px solid #fff
+	}
+	
+	
+	nav .navbar-toggler span {
+		
+		display: block;
+		height: 2px;
+		width: 80%;
+		margin: 5px auto;
+		background: #fff
+	}
+}
+
+/* END NAVBAR STYLING */
+
+
+/* START HOME SECTION STYLING */
+@media(max-width: 991px) {
+	
+	#home .header .header-content h1 {
+		
+		font-size: 44px
+	}
+	
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	
+	#home {
+		
+		padding-top: 170px
+	}
+	
+	
+	#home .header .header-content h1 {
+		
+		font-size: 37px
+	}
+	
+	
+	#home .header .header-content p {
+		
+		font-size: 23px
+	}
+	
+}
+
+
+@media(max-width: 575px) {
+	
+	#home {
+		
+		height: 550px;
+		padding-top: 150px
+	}
+	
+	#home .header .header-content {
+		
+		padding-left: 20px
+	}
+	
+	#home .header .header-content h1 {
+		
+		font-size: 35px
+	}
+	
+	
+	#home .header .header-content p {
+		
+		font-size: 20px
+	}
+}
+
+
+
+/* END HOME SECTION STYLING */
+
+/* START ABOUT US SECTION */
+@media(min-width: 768px) and (max-width: 991px) {
+	
+	#about .social-icon a {
+		
+		width: 35px;
+		height: 35px;
+	}
+	
+	#about .social-icon a i {
+		
+		line-height: 35px
+	}
+	
+}
+
+@media(max-width: 767px) {
+	
+	#about .about-content .carolina-h2 {
+		
+		margin-top: 15px
+	}
+	
+	#about .skills-prog {
+		
+		padding-top: 0px
+	}
+}
+/* END ABOUT US SECTION */
+
+
+/* START STATISTICS SECTION */
+@media(max-width: 991px) {
+	
+	#statistics {
+		
+		padding: 100px 0px
+	}
+	
+	#statistics .count-item {
+		
+		margin-bottom: 30px
+	}
+}
+/* END STATISTICS SECTION */
+
+
+
+/* START PORTFOLIO SECTION */
+@media(max-width: 575px) {
+	
+	#portfolio ul li {
+		
+		margin-bottom: 15px;
+		margin-right: 10px
+	}
+	
+
+	
+	
+}
+
+@media(max-width: 767px) {
+	
+	#portfolio .port-item img {
+		
+		width : 100%
+	}
+	
+	#portfolio .port-focus .port-gallery  {
+		
+		height: 50%;
+		width: 100%
+	}
+}
+/* END PORTFOLIO SECTION */
